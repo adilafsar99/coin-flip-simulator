@@ -1,0 +1,25 @@
+body {
+				background-color: #000000;
+}
+
+.page {
+				width: 60%;
+				margin: 0 auto;
+				color: #ffffff;
+				background-color: #5582ff;
+				font-family: serif;
+				padding-left: 10px;
+				border: 3px solid #ff5f55;
+				border-radius: 4px;
+}
+
+h1 {
+				text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 400px){
+				.page {
+								width: 90%;
+				}
+}
